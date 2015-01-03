@@ -1,5 +1,9 @@
 Revision history for Perl extension Crypt::Curve25519.
 
+0.04   2014-12-15 01:43:32
+    There are 32bit platforms with 64int, harden the archname check
+      - reported by Jeff Anderson.
+
 0.03   2014-04-28 23:36:16
     Document primitive function.
 
